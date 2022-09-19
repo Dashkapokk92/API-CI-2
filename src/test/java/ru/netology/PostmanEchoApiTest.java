@@ -9,7 +9,7 @@ public class PostmanEchoApiTest {
         //Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                //.contentType("text/plain; charset=UTF-8")
+
                 .body("Hellow,you have called," + //отправка данных (заголовки и query можно выставлять аналогично)
                         "to the online store." +
                         "How can I help.")
