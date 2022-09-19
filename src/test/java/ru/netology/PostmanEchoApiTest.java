@@ -12,7 +12,7 @@ public class PostmanEchoApiTest {
 
                 .body("Hellow,you have called," + //отправка данных (заголовки и query можно выставлять аналогично)
                         "to the online store." +
-                        "How can I help?.")
+                        "How can I help.")
                 //Выполняемые действия
                 .when()
                 .post("/post")
