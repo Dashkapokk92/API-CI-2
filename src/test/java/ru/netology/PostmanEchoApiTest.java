@@ -19,7 +19,7 @@ public class PostmanEchoApiTest {
                 //Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equaTo("Hellow,you have called," +
+                .body("data", equalTo("Hellow,you have called," +
                         "to the online store." +
                         "How can I help."));
     }
